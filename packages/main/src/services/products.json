@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "MacBook Pro 14-inch",
+    "price": "From $1999",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-14-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635183223000",
+    "features": [
+      {
+        "description": "New Apple M1 Pro and M1 Max chips deliver incredible performance"
+      },
+      {
+        "description": "Up to 21 hours of battery life,footnote¹ thanks to the efficiency of Apple silicon"
+      },
+      {
+        "description": "Liquid Retina XDR display features extreme dynamic range and incredible contrast ratio"
+      },
+      {
+        "description": "New 1080p FaceTime HD camera, high-fidelity six-speaker sound system, and studio-quality mic array"
+      },
+      {
+        "description": "Thunderbolt 4, HDMI, SDXC, and MagSafe 3 for fast and versatile connectivity"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "MacBook Pro 16-inch",
+    "price": "From $2499",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-16-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1635206712000",
+    "features": [
+      {
+        "description": "New Apple M1 Pro and M1 Max chips deliver incredible performance"
+      },
+      {
+        "description": "Up to 21 hours of battery life,footnote¹ thanks to the efficiency of Apple silicon"
+      },
+      {
+        "description": "Liquid Retina XDR display features extreme dynamic range and incredible contrast ratio"
+      },
+      {
+        "description": "New 1080p FaceTime HD camera, high-fidelity six-speaker sound system, and studio-quality mic array"
+      },
+      {
+        "description": "Thunderbolt 4, HDMI, SDXC, and MagSafe 3 for fast and versatile connectivity"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "MacBook Pro 13-inch",
+    "price": "From $1299",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1652888111197",
+    "features": [
+      {
+        "description": "Get more done faster with the next-generation Apple M2 chip and an active cooling system that sustains pro levels of performance"
+      },
+      {
+        "description": "Go all day and into the night with up to 20 hours of battery lifefootnote¹"
+      },
+      {
+        "description": "Retina display with 500 nits of brightness delivers vibrant colors and incredible detail"
+      },
+      {
+        "description": "Two Thunderbolt ports let you connect and power high-speed accessories"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "MacBook Air with M2 chip",
+    "price": "From $1199",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1652888111197",
+    "features": [
+      {
+        "description": "All-new strikingly thin design so you can work, play, or create just about anything — anywhere"
+      },
+      {
+        "description": "Get more done faster with the next-generation Apple M2 chip — and go all day and into the night with up to 18 hours of battery life¹"
+      },
+      {
+        "description": "13.6-inch Liquid Retina display with 500 nits of brightness makes text and images look brilliant, with vivid detailfootnote²"
+      },
+      {
+        "description": "Everything looks sharp and sounds great with a 1080p FaceTime HD camera, three-mic array, and four-speaker sound system with Spatial Audio"
+      },
+      {
+        "description": "Fanless design means MacBook Air stays completely silent no matter how intense the task"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "MacBook Air with M1 chip",
+    "price": "From $999",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1636156517000",
+    "features": [
+      {
+        "description": "Apple M1 chip delivers powerful CPU, GPU, and machine learning performance"
+      },
+      {
+        "description": "Up to 18 hours of battery life so you can go longer than everFootnote1"
+      },
+      {
+        "description": "Retina display with vibrant colors and incredible detail"
+      },
+      {
+        "description": "Superfast SSD storage opens apps and files in an instant"
+      },
+      {
+        "description": "Fanless design for silent operation"
+      }
+    ]
+  }
+]

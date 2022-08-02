@@ -1,0 +1,26 @@
+{
+  "name": "module-federation-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "packages/lib",
+    "packages/main"
+  ],
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\" \"wsrun --parallel serve\"",
+    "serve": "wsrun --parallel serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.74.0",
+    "wsrun": "^5.2.4"
+  }
+}
