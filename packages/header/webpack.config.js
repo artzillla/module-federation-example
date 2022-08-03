@@ -9,11 +9,11 @@ module.exports = {
   cache: false,
 
   output: {
-    publicPath: 'http://localhost:3001/',
+    publicPath: 'http://localhost:3003/',
   },
 
   resolve: {
-    extensions: ['.jsx', '.js', '.json'],
+    extensions: ['.jsx', '.js'],
   },
 
   module: {
@@ -25,10 +25,6 @@ module.exports = {
           presets: [require.resolve('@babel/preset-react')],
         },
       },
-      {
-        test: /\.css?$/,
-        use: ['style-loader', 'css-loader'],
-      },
     ],
   },
   plugins: [
@@ -36,13 +32,12 @@ module.exports = {
       template: './public/index.html',
     }),
     new ModuleFederationPlugin({
-      name: 'main',
+      name: 'header',
       filename: 'remoteEntry.js',
-      remotes: {
-        lib: 'lib@http://localhost:3002/remoteEntry.js',
-        header: 'header@http://localhost:3003/remoteEntry.js',
+      remotes: {},
+      exposes: {
+        './Header': './src/Header.jsx',
       },
-      exposes: {},
       shared: {
         ...deps,
         react: {

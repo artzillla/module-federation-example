@@ -5,6 +5,7 @@
   "description": "",
   "workspaces": [
     "packages/lib",
+    "packages/header",
     "packages/main"
   ],
   "scripts": {

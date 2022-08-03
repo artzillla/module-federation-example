@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import productService from './services/product.service';
 import { withSpinner } from './hocs/withSpinner.hoc';
 import { ProductList as ProductListComponent } from './ProductList';
+import Header from 'header/Header';
 
 const ProductList = withSpinner(ProductListComponent);
 
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <div className='App'>
+      <Header></Header>
       <ProductList products={products} isLoading={isLoading}></ProductList>
     </div>
   );
