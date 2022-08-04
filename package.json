@@ -6,7 +6,8 @@
   "workspaces": [
     "packages/lib",
     "packages/header",
-    "packages/main"
+    "packages/main",
+    "packages/cart"
   ],
   "scripts": {
     "start": "concurrently \"wsrun --parallel start\" \"wsrun --parallel serve\"",
